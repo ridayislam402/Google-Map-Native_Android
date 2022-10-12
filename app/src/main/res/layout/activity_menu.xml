@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Menu_Activity">
+    <Button
+        android:id="@+id/googlemap_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Google Map"/>
+    <Button
+        android:id="@+id/supportMapFragment_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SupportMapFragment"/>
+    <Button
+        android:id="@+id/supportMapFragment2_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SupportMapFragment 2"/>
+    <Button
+        android:id="@+id/currentlocationupdate_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Current location update 1"/>
+    <Button
+        android:id="@+id/currentlocationupdate2_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Current location update 2"/>
+
+
+</LinearLayout>
